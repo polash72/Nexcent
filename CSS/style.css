@@ -37,6 +37,22 @@
     border-color: #4CAF4F;
 
 }
+.title{
+    text-align: center;
+}
+.title h2{
+    font-size: 36px;
+    color: #4D4D4D;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+}
+.title p{
+    font-size: 16px;
+    color: #717171;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    padding-top: 08px;
+}
 .box{
     display: flex;
 }
@@ -89,22 +105,87 @@ nav{
     text-align: center;
 
 }
-.client .title h2{
-    font-size: 36px;
-    color: #4D4D4D;
-    font-weight: 600;
-    font-family: "Inter", sans-serif;
-}
-.client .title p{
-    font-size: 16px;
-    color: #717171;
-    font-weight: 400;
-    font-family: "Inter", sans-serif;
-    padding-top: 08px;
-}
+
 .client .box{
     justify-content: space-between;
     padding: 25px 0px;
 }
 
 /* Client Part end */
+/* Comunity Part Start */
+.comunity{
+    background-color: #FFFFFF;
+    padding-bottom: 42px;
+}
+.comunity .title h2{
+width: 542px;
+margin: 0 auto;
+}
+.comunity .card{
+    width: 100% !important;
+    height: 310px !important;
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-top: 24px;
+    padding-bottom: 110px;
+
+}
+.comunity .card-title{
+    padding-bottom: 08px;
+    color: #4D4D4D;
+    font-family: "Inter", sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+}
+.comunity .card-text{
+    font-size: 09px !important;
+    color: #717171;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    padding-left: 56px;
+    padding-right: 56px;
+    padding-bottom: 42px;
+    text-align: center;
+}
+.comunity .card img{
+    width: 40%;
+    margin: 0 auto;
+}
+
+/* Comunity Part end */
+/* Service Part start */
+.service{
+    width: 1440px;
+    height: 433px;
+}
+.service h1{
+    
+    font-size: 23px;
+    color: #4D4D4D;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    padding-top: 82.5px;
+    padding-bottom: 16px;
+    padding-left: 49px;
+    padding-right: 144px;
+    
+}
+.service img{
+    width: 100%;
+    padding-left: 144px;
+}
+.service p{
+    font-size: 11px;
+    color: #717171;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    padding-left: 49px;
+}
+.service .common-button{
+    padding-left: 49px !important;
+    padding-top: 32px !important;
+}
+
+
+/* Service Part end */
