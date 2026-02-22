@@ -37,6 +37,9 @@
     border-color: #4CAF4F;
 
 }
+.box{
+    display: flex;
+}
 /* Navbar part start*/
 nav{
     background: #FFFFFF;
@@ -77,3 +80,31 @@ nav{
     padding-bottom: 32px;
 }
 /* Banner part end*/
+/* Client part start*/
+.client{
+    background: #FFFFFF;
+    padding: 40px 0px;
+}
+.client .title{
+    text-align: center;
+
+}
+.client .title h2{
+    font-size: 36px;
+    color: #4D4D4D;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+}
+.client .title p{
+    font-size: 16px;
+    color: #717171;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    padding-top: 08px;
+}
+.client .box{
+    justify-content: space-between;
+    padding: 25px 0px;
+}
+
+/* Client Part end */
